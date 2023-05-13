@@ -1,0 +1,36 @@
+﻿Сборка начата 06.02.2023 17:45:54.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\Lab01_.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\Lab01_.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt lab01.cpp
+         lab01.cpp
+     1>D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(15,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(36,3): error C2360: пропуск инициализации "en" из-за метки "case"
+       D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(32): message : см. объявление "en"
+     1>D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(36,3): error C2360: пропуск инициализации "numb" из-за метки "case"
+       D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(27): message : см. объявление "numb"
+     1>D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(36,3): error C2360: пропуск инициализации "begin" из-за метки "case"
+       D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(25): message : см. объявление "begin"
+     1>D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(36,3): error C2360: пропуск инициализации "spen_time" из-за метки "case"
+       D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(23): message : см. объявление "spen_time"
+     1>Сборка проекта "D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\Lab01_.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\Lab01_.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(15,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+
+       "D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\Lab01_.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(36,3): error C2360: пропуск инициализации "en" из-за метки "case"
+         D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(36,3): error C2360: пропуск инициализации "numb" из-за метки "case"
+         D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(36,3): error C2360: пропуск инициализации "begin" из-за метки "case"
+         D:\Учеба\Algotithmes and data structures\Labs\Lab01\Lab01\Lab01_\lab01.cpp(36,3): error C2360: пропуск инициализации "spen_time" из-за метки "case"
+
+    Предупреждений: 1
+    Ошибок: 4
+
+Прошло времени 00:00:01.05
